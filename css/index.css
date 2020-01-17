@@ -208,6 +208,8 @@ button{
 }
 
 /***************css for about page exclusively**********/
+
+
 .about{
     border-bottom: dashed black 1px;  
     margin: 4% 0;  
@@ -234,4 +236,9 @@ button{
 
 .work-together{
     margin-bottom:4%;
+}
+
+
+.section2 img, .section3 img{
+    margin-bottom:3%;
 }
