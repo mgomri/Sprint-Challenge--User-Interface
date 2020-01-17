@@ -67,22 +67,43 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 80%;
     margin: 0 auto;
+    font-weight: bold;
 }
 
-.top-content {
+
+
+.top-content nav{
+
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    justify-content: space-between;
+    align-items:flex-end;
+    margin: 4% 0;
+
+}
+
+.top-content nav a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+
+.future{
+    display:flex;
+    justify-content: space-between;
+    border-bottom: dashed black 1px;
+    margin: 4% 0;  
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.jumbo{ 
+    width:100%
 }
 
 .middle-content {
@@ -104,12 +125,43 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1{
+    background-color: darkcyan;
+}
+
+.box2{
+    background-color: yellow;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: orange;
+}
+.box5{
+    background-color: red;
+}
+.box6{
+    background-color: darkgreen;
+}
+.box7{
+    background-color: darkslateblue;
+}
+.box8{
+    background-color: pink;
+}
+.box9{
+    background-color: darkviolet;
+}
+.box10{
+    background: deepskyblue;
 }
 
 .bottom-content {
@@ -143,4 +195,43 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+button{
+    width:30%;
+    background-color: white;;
+    margin: 4% 0;
+    border:solid black 1px;  
+    border-radius: 10%;
+    padding:5px
+
+}
+
+/***************css for about page exclusively**********/
+.about{
+    border-bottom: dashed black 1px;  
+    margin: 4% 0;  
+    padding-bottom: 20px;  
+
+}
+
+.strategy, .how-we-work, .places-we-work, .collaboration {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: dashed black 1px; 
+    margin: 4% 0;  
+    padding-bottom: 20px;    
+
+}
+
+.section2, .section3{
+    display:flex;
+    justify-content: space-between;
+    
+    
+}
+
+.work-together{
+    margin-bottom:4%;
 }
